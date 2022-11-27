@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: rgb(131, 124, 124);
+    /* width: 15vw; */
+    height: 100vh;
+    transition: transform 03s ease-in;
+}
+
+.sidebar nav {
+    padding: 50px 0 0 0px;
+    font-size: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: blue; */
+    height: 58vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.devpic img {
+    /* height: 58vh;
+    /* float: right; */
+    height: 30vh;
+    margin: 150px auto;
+    /* float: right; */
+    justify-content: right;
+    margin: auto;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 45px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 24px;
+    font-size: 18px;
+    background-color: rgb(52, 24, 211);
+    color: white;
+    margin: 10px;
+}
+
+.btn:hover {
+    color: rgb(52, 24, 211);
+    background-color: white;
+}
+
+.contactform {
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    padding: 0px 20px;
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.contactform h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1px;
+    left-margin: 37;
+    margin: 27px;
+    /* text-align: center; */
+
+}
+
+/* .mb-3{
+    margin: 0px;
+    padding: 5px 1px;
+}
+.mb-3 form-check{
+    margin: 0px;
+    padding: 5px 1px;
+} */
+.contactform form div {
+    padding: 8px 0;
+}
+
+#emailHelp {
+    font-size: 9px;
+    color: darkcyan;
+}
+
+#exampleInputEmail1 {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    border-radius: 10px;
+    margin: 2px 0 -3px 0px;
+}
+
+#exampleInputPhoneno {
+    padding: 6px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    border-radius: 10px;
+    margin: 5px 0 -3px 0px;
+}
+
+#Name {
+    padding: 6px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    border-radius: 10px;
+    margin: 5px 0 -3px 0px;
+}
+
+#Enquiry {
+
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    border-radius: 10px;
+    margin: 5px 0 -3px 0px;
+    padding: 6px;
+}
+
+.btn1 {
+
+    padding: 10px;
+    margin: 15px;
+    border-radius: 13px;
+    font-size: 19px;
+    background-color: rgb(52, 24, 211);
+    color: white;
+    margin: 7px;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    color: blue;
+}
+
+.intro h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+.intro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+.skill{
+    width: 145px;
+    height: 6px;
+    background-color: red;
+    margin: 10px 0 0 0 ;
+}
+.skillcontainer{
+    padding: 3px;
+    margin: 0 0 0 2px;
+}
+@media (max-width: 766px){
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+} 
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    display: flex;
+}
+.ham img{
+display: inline-block;
+    width: 32px;
+    margin: -10px 0px 21px -8px;
+}
+.cross img{
+    display: inline-block;
+    margin: -10px 0 0 92px;
+    width: 32px; 
+    /* background-color: white; */
+
+}
+ .sidebarGo{
+
+        transform: translate(-443px,0px);
+        position: absolute;
+
+}
